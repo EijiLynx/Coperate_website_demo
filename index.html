@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Beistand Tech</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo_cropped.png" rel="icon" />
+    <link href="assets/img/logo_cropped.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper-slide {
+        width: 80%;
+      }
+
+      .swiper-slide:nth-child(2n) {
+        width: 60%;
+      }
+
+      .swiper-slide:nth-child(3n) {
+        width: 40%;
+      }
+
+      .autoplay-progress {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        z-index: 10;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: var(--swiper-theme-color);
+      }
+
+      .autoplay-progress svg {
+        --progress: 0;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        stroke-width: 4px;
+        stroke: var(--swiper-theme-color);
+        fill: none;
+        stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+        stroke-dasharray: 125.6;
+        transform: rotate(-90deg);
+      }
+    </style>
+    <script
+      src="assets/js/bootstrap.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1 class="text-light">
+            <a href="index.html"><span>Beistand Tech</span></a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="studex_homepage.html" target="_blank">Studex</a></li>
+            <li><a href="bootcamp.html">Gallery</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex justify-cntent-center align-items-center">
+      <div
+        id="heroCarousel"
+        class="container carousel carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Welcome to <span>Beistand Tech</span>
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              We provide software solutions, including products and services, to
+              address various needs and challenges for all business sizes.
+            </p>
+            <a
+              href="about.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Softwares that are built to help you
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Unlock your full potential with BeistandTech's productivity
+              inclined softwares, we design and build to optimize your workflow
+              and increase efficiency.
+            </p>
+            <a
+              href="about.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Expert guidance
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Maximize your software investment with BeistandTech's expert
+              consultation services, tailored to your unique business needs.
+            </p>
+            <a
+              href="about.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bx bx-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bx bx-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <section id="intro">
+      <div>
+        <div id="banner" class="row">
+          <div>BEISTAND</div>
+          <p>Your trusted partner for innovative digital solutions.</p>
+        </div>
+        <div>
+          <h5>
+            At BEISTAND, we specialize in developing cutting-edge
+            software applications that empower businesses to thrive in the
+            digital age. From custom software development to software consulting
+            and product development, we offer a comprehensive suite of services
+            tailored to meet your unique needs.
+          </h5>
+        </div>
+        <div>What We Do</div>
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-easel"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-gem"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-command"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
+          <div class="card">
+            <!-- <div class="card-img">
+              <img src="assets/img/service-details-3.jpg" alt="...">
+            </div> -->
+            <div class="card-body">
+              <h5 class="card-title"><a href="#">Our Vision</a></h5>
+              <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main id="main">
+      <!-- ======= Services Section ======= -->
+      <!-- <section class="services">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="icon-box icon-box-pink">
+                <div class="icon"><i class="bx bx-mobile-alt"></i></div>
+                <h4 class="title">Mobile Development</h4>
+                <p class="description">
+                  Our company specializes in creating high-quality,
+                  user-friendly mobile applications that are tailored to meet
+                  the unique needs of our clients
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box icon-box-cyan">
+                <div class="icon"><i class="bx bx-file-find"></i></div>
+                <h4 class="title">Web Development</h4>
+                <p class="description">
+                  Our team of experienced developers are experts in building
+                  dynamic, responsive websites that are optimized for
+                  performance and user engagement.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bx bx-desktop"></i></div>
+                <h4 class="title">Desktop Apps</h4>
+                <p class="description">
+                  We offer development of powerful and efficient desktop
+                  applications for both Windows and MacOS, providing seamless
+                  performance and user-friendly experience.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bx bx-bulb"></i></div>
+                <h4 class="title">IT Consultations</h4>
+                <p class="description">
+                  Our IT consultants are highly experienced in providing expert
+                  advice and solutions to help businesses optimize their
+                  technology infrastructure and improve overall efficiency.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bx bx-paint"></i></div>
+                <h4 class="title">Graphic Design</h4>
+                <p class="description">
+                  Experience the power of stunning visuals and professional
+                  design with our expert graphic design services, tailored to
+                  make your brand stand out and leave a lasting impression.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bx bx-bar-chart-square"></i></div>
+                <h4 class="title">UI/UIX</h4>
+                <p class="description">
+                  Elevate your user experience and interface design with our
+                  cutting-edge solutions, designed to engage your audience and
+                  create a seamless, intuitive user journey.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-cyan">
+                <div class="icon"><i class="bx bx-code-alt"></i></div>
+                <h4 class="title">Boot Camps</h4>
+                <p class="description">
+                  Unlock your potential and accelerate your coding career with
+                  our comprehensive boot camps, featuring expert instructors,
+                  hands-on learning, and real-world projects that prepare you
+                  for success in the tech industry.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-pink">
+                <div class="icon"><i class="bx bx-cloud"></i></div>
+                <h4 class="title">Cloud Platform Design/Management</h4>
+                <p class="description">
+                  Experience the power of cloud with our expert design and
+                  management services, designed to optimize your cloud
+                  infrastructure and enhance your business agility, scalability,
+                  and security.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- End Services Section -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section
+        class="why-us section-bg"
+        data-aos="fade-up"
+        date-aos-delay="150"
+      ></section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= Features Section ======= -->
+      <section class="features">
+        <div class="container">
+          <div class="section-title">
+            <h2>What You Get From Us</h2>
+            <p>
+              BeistandTech provides customized software solutions that increase
+              efficiency, provide a competitive advantage, and result in
+              long-term cost savings for businesses. Our tailored solutions are
+              designed to meet the unique needs of each client, enhancing
+              productivity and streamlining workflows.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img src="assets/img/features-1.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-4">
+              <h3>Customizable Solutions.</h3>
+              <p class="fst-italic">
+                We understand that every business is unique, which is why our
+                software solutions are designed to be customizable. Whether you
+                need a custom CRM or a specialized inventory management system,
+                we can develop a solution that fits your specific needs and
+                requirements.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  This means that you can get software that perfectly fits your
+                  workflows, processes, and business goals.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  Stay ahead of the curve and maintain a competitive edge in
+                  today's fast-paced business environment
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="assets/img/features-2.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Save Cost</h3>
+              <p class="fst-italic">
+                Our solutions are designed to improve efficiency, reduce errors,
+                and optimize workflows, leading to cost savings over time.
+              </p>
+              <p>
+                With a custom solution, you won't have to worry about paying for
+                multiple software licenses or dealing with compatibility issues.
+              </p>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img src="assets/img/features-3.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5">
+              <h3>Be ahead in the competition</h3>
+              <p>
+                Our software solutions can help you gain a competitive advantage
+                by providing unique features and functionality that set you
+                apart from your competitors. Plus, our custom solutions can help
+                you build your brand image and enhance your reputation as an
+                innovative, forward-thinking company.
+              </p>
+              <ul>
+                <li><i class="bi bi-check"></i> Build your brand image</li>
+                <li>
+                  <i class="bi bi-check"></i> Enhance your reputation as an
+                  innovative, forward-thinking company.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="assets/img/features-4.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Work Smarter</h3>
+              <p class="fst-italic">
+                Our software solutions are designed to streamline and automate
+                processes, leading to increased efficiency and productivity.
+              </p>
+              <p>
+                From project management to accounting software, our solutions
+                are tailored to meet the needs of your business and help you
+                work smarter, not harder.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Features Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer
+      id="footer"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
+    >
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Our Newsletter</h4>
+              <p>Receive important updates and information on new services</p>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="about.html">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="services.html">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="services.html">Mobile Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="services.html">Web Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="services.html">Desktop App Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="services.html">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                ET-0452-0077 <br />
+                Eastern Region <br />
+                Ghana <br /><br />
+                <strong>Phone:</strong> +233 54 405 4537<br />
+                <strong>Email:</strong> beistandtech@gmail.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>About Beistand Tech</h3>
+              <p>
+                BeistandTech is a West African based software development
+                company committed to delivering innovative solutions and
+                unparalleled customer support to businesses of all sizes.
+              </p>
+              <div class="social-links mt-3">
+                <a href=" https://twitter.com/beistandtech" class="twitter"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+                <a
+                  href="https://web.facebook.com/profile.php?id=100089127918447"
+                  class="facebook"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/beistandtech/"
+                  class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Beistand Tech</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-Beistand Tech/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const progressCircle = document.querySelector(".autoplay-progress svg");
+      const progressContent = document.querySelector(".autoplay-progress span");
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        on: {
+          autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

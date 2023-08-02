@@ -1,0 +1,120 @@
+body{
+    font-size: large;
+}
+
+#sumtin{
+    text-align: center;
+    
+}
+
+#imgcon{
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#textba{
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#galary{
+    /* background-color: #0000FF; */
+    /* background: rgb(2,0,36);
+    background: radial-gradient(circle,rgb(2,0,36,1)46%,rgb(14,18,19,1)100%); */
+    color: white;
+    
+}
+img{
+    align-self:center;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+}
+#google-play_img{
+    padding-left: 12px;
+    
+}
+#iphone_img{
+    padding-right: 12px;
+    
+}
+#store_img{
+    padding: 0px;
+    
+}
+#sign_up_btn{
+    border-radius: 25px;
+}
+
+#galary_img{
+    width: 100%;
+}
+#galary_content{
+    text-align: center;
+   
+    margin: 15.215px;
+}
+#galary_btn{
+    width: 100%;
+    border-radius: 25px;
+    border-color: transparent;
+    background: #FFA500;
+    
+}
+#galary_btn:hover{
+    background-color: #e9a018;
+    
+}
+.my-8{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#navbar_{
+    /* background-color: #0000FF; */
+    background: #08316F;
+    /* background: radial-gradient(circle,rgb(2,0,36,1)0%,rgb(14,18,19,1)100%); */
+}
+/* #studex_logo{
+    
+    border: 1px solid  #FFA500;
+    border-radius: 15px;
+} */
+
+#sign_up_btn{
+    height: 50px;
+    width: 110px;
+    /* border-radius: 35px; */
+    background: #FFA500;
+    color: white;
+}
+#sign_up_btn:hover{
+    background-color: #e9a018;
+}
+#FAQ{
+    padding: 96px 0px 96px 0px;
+}
+#rows{
+    margin: 0px 9% 0px 9%;
+}
+#footer{
+    color: #FFA500;
+    font-size:medium;
+    /* background-color: #FFA500; */
+    background: #08316F;;
+    /* background: radial-gradient(circle,rgb(2,0,36,1)0%,rgb(14,18,19,1)100%);
+    color: white; */
+}
+#icons_container{
+    
+    font-size:2em;
+}
+#icons{
+    color: #FFA500;
+}
+
+#galary_merge{
+    background: #08316F;;
+    /* background: radial-gradient(circle,rgb(2,0,36,1)0%,rgb(14,18,19,1)100%); */
+}
